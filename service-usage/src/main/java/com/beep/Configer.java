@@ -10,4 +10,8 @@ public class Configer {
 
     @Autowired
     private Beep beep;
+
+    public Beep getBeep() {
+        return beep;
+    }
 }
